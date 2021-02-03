@@ -34,8 +34,8 @@ export default function Login({ setToken }) {
             <p className="h5 text-center mb-4">Sign in</p>
             <div className="grey-text">
               <MDBInput label="username" icon="user" group type="text" validate error="wrong"
-                success="right" onChange={e => setUserName(e.target.value)} />
-              <MDBInput label="password" icon="lock" group type="password" validate onChange={e => setPassword(e.target.value)} />
+                success="right" onChange={e => setUserName(e.target.value)} required/>
+              <MDBInput label="password" icon="lock" group type="password" validate onChange={e => setPassword(e.target.value)} required/>
             </div>
             <div className="text-center">
               <MDBBtn type="submit">Login</MDBBtn>
