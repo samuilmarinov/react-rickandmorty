@@ -1,8 +1,6 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import { MDBIcon, MDBNavbar } from "mdbreact";
-import { Link } from 'react-router-dom';
-
 
 
 const Navigation = () => {   
