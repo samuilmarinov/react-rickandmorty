@@ -50,7 +50,7 @@ const GET_SINGLECHARACTER_INFO = gql`query ($name: String!) {
             data.characters.results.map((result, index) => (
               <div key={index} className="card">
                 <div className="card-body">
-                  <img alt="" src={result.image} />
+                  <img className="characterresults" alt="" src={result.image} />
                   <h3>Name: {result.name}</h3>
                   <h5>Gender: {result.gender}</h5>
                   <h5>Status: {result.status}</h5>

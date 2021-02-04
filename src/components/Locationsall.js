@@ -112,7 +112,7 @@ const GET_LOCATIONS_INFO = gql`query  ($page: Int!) {
               <div key={index} className="card cardLocations">
                <Link className="paginationLink" to ={"/location/" + result.name} >
                 <div className="card-body">
-                  <h3>Name: {result.name}</h3>
+                  <h3>{result.name}</h3>
                   <h5>Type: {result.type}</h5>
                   <h5>Dimension: {result.dimension}</h5>
                 </div>
