@@ -9,13 +9,13 @@ const Navigation = () => {
 
     function logout(e) {
         localStorage.removeItem('token');
-        window.location.reload(false);
+        window.location = "/";
     }
    
     return (
      
         <MDBNavbar color="indigo" dark expand="md">
-          <NavLink className="navigationLink home" to="/">Home</NavLink>
+          <NavLink className="navigationLink home" to="/">Rick & Morty's Adventures</NavLink>
           <NavLink className="navigationLink" to="/episodes/1">Episodes</NavLink>
           <NavLink className="navigationLink" to="/characters/1">Characters</NavLink>
           <NavLink className="navigationLink" to="/locations/1">Locations</NavLink>

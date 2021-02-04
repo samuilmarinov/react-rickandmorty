@@ -9,6 +9,9 @@ body {
   position: absolute;
   right: 0;
 }
+.navbar{
+  margin-top:0;
+}
 #root{
   overflow-x: hidden;
 }
@@ -17,7 +20,7 @@ body {
   padding-top:1rem;
 }
 .loginform{
-  padding: 20% 40% !important;
+  padding: 15% 35% !important;
 }
 .homepage{
   min-height: 82vh;
@@ -202,6 +205,9 @@ footer {
 }
  
 @media (max-width: 489px) {
+  .navbar{
+    display:grid !important
+  }
  .bottomtop{ margin-bottom:100% !important;}
  .searchtitle{font-size:1.5rem;}
  .pagination{ 

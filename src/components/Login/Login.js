@@ -31,7 +31,7 @@ export default function Login({ setToken }) {
       <MDBRow className="container loginform">
         <MDBCol>
           <form onSubmit={handleSubmit}>
-            <p className="h5 text-center mb-4">Sign in</p>
+            <p className="h5 text-center mb-4">Explore infinite realities</p>
             <div className="grey-text">
               <MDBInput label="username" icon="user" group type="text" validate error="wrong"
                 success="right" onChange={e => setUserName(e.target.value)} required/>
