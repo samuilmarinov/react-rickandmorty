@@ -75,7 +75,7 @@ function PagesList() {
 
   
   return (
-    pagesarray.map((n,i) => <a key={i} className={(thispage === n ? 'active ' : '') + 'controls'} href={charac + n}><li key={i}>{n}</li></a>)
+    pagesarray.map((n,i) => <Link key={i} className={(thispage === n ? 'active ' : '') + 'controls'} to={charac + n}><li key={i}>{n}</li></Link>)
   );
 }
 
