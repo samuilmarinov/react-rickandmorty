@@ -14,13 +14,10 @@ React and GraphQL
 To disable the use of the dummy authentication API you can do the following:
 
 - edit `src/components/Login.js`  - replace the `loginUser()` function with:
-`async function loginUser() {
-
-  var credentials = "user";
-  var string = JSON.stringify(credentials);
-  localStorage.setItem('token', string);
- 
-}`
+`async function loginUser() { 
+    var credentials = "user"; 
+    var string = JSON.stringify(credentials); 
+    localStorage.setItem('token', string); }`
 
 - and on line 23 `Login.js` add - `window.location.href = "/"`
 
